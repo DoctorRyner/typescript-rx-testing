@@ -1,0 +1,11 @@
+name:                css
+
+dependencies:
+- base >= 4.7 && < 5
+- clay
+- text
+
+library:
+    source-dirs: src
+    ghc-options:
+    - -Wall

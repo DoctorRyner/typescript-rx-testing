@@ -1,0 +1,9 @@
+default: sae dev
+
+css-dev: cd gui/css && ghcid -r=run
+
+gui-dev: cd gui && npm start
+
+api-dev: cd api && ghcid -r=runApp
+
+dev: sae --async css-dev gui-dev api-dev
